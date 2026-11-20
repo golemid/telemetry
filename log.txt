@@ -1,0 +1,56 @@
+[20:26:40.645] [REACTION] Loaded Generated Sphere (Direct GPU SDF Volume in 2555 ms)
+[20:26:40.645] [MEM:VRAM] Used: 1094 MB / 12288 MB (8.9%) | Free: 11193 MB [Model Loaded & SDF Rasterized]
+[20:26:40.663] [PERF] raymarch: cuda 8.9 ms | tex 2.7 ms | 1238x926 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:27:08.725] [REACTION] Loaded Generated Sphere (Direct GPU SDF Volume in 4733 ms)
+[20:27:08.726] [MEM:VRAM] Used: 1171 MB / 12288 MB (9.5%) | Free: 11116 MB [Model Loaded & SDF Rasterized]
+[20:27:08.762] [PERF] raymarch: cuda 13.8 ms | tex 21.1 ms | 918x838 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:27:13.722] [ACTION] Button: Import
+[20:27:13.722] [ACTION] Import 3D Model button clicked
+[20:27:18.153] [CUDA] Fast SDF verify: 1/4096 sign mismatches (probe gen 0) - patching exact winding boxes (r=24)
+[20:27:18.242] [CUDA] Fast SDF verify: 2/4096 sign mismatches (probe gen 1) - patching exact winding boxes (r=24)
+[20:27:18.408] [CUDA] Fast SDF verify: 2/4096 sign mismatches (probe gen 2) - patching exact winding boxes (r=24)
+[20:27:18.557] [CUDA] Fast SDF verify: 2/4096 residual mismatches within tolerance 16 (probe gen 2) - accepting fast path, 5 sites patched exact
+[20:27:18.618] [CUDA] Fast SDF path OK: 3050 ms total (splat+parity 311 ms | eikonal 8 rounds 2267 ms | verify+sign+copy 472 ms) | 530x396x646 voxels, 12496 tris, band 8 vox, fixup 0 | verify 3 probes, 5 sites, 588245 voxels patched in 3 rounds, residual 2 (tolerance 16) | far residual 0, extra rounds 0, safe-clamped 0
+[20:27:18.766] [REACTION] Loaded mug.STL (Direct GPU SDF Volume in 3050 ms)
+[20:27:18.766] [MEM:VRAM] Used: 1205 MB / 12288 MB (9.8%) | Free: 11082 MB [Model Loaded & SDF Rasterized]
+[20:27:18.840] [PERF] raymarch: cuda 72.7 ms | tex 0.6 ms | 918x838 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:27:30.243] [PERF] raymarch: cuda 74.7 ms | tex 4.4 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:27:37.870] [ACTION] Button: Import
+[20:27:37.870] [ACTION] Import 3D Model button clicked
+[20:27:40.520] [ACTION] Button: Start
+[20:27:40.520] [ACTION] Start Growth button clicked
+[20:27:41.021] [REACTION] Roots visualization automatically enabled for growth session
+[20:27:41.021] [REACTION] Growing roots...
+[20:38:49.070] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=483216
+[20:38:49.076] [PRINT] [Print Audit] sections=483216 (order 0/1/2/3: 925/13628/95142/373521) | islands=1 seed base(s) connected | min radius=0.220 mm (floor 0.220) OK | est. resin volume=48.63 cm^3
+[20:38:49.076] [PRINT] [Print Audit] slenderness: worst root #3 L/r=1054 | roots with L/r > 60: 6877 (long thin spans - consider supports or a higher Min Print Radius)
+[20:38:49.076] [PRINT] [Caliber Audit] shape=Natural+Clearance | r min/mean by order 0/1/2/3: 0.22/0.61 0.22/0.31 0.22/0.24 0.22/0.23 mm | clearance tips: 11/230/2558/11799 strands, mean tip r 0.42/0.25/0.22/0.22 mm (space-driven taper: anchors locked, floor 0.22)
+[20:41:32.900] [EYE] [Structure Dump] wrote 483216 sections (mode 6, iter 474) -> logs/structure_dump_mode6_20261120_204132.txt — send this file back (or bundle.zip) for shape analysis
+[20:41:32.900] [REACTION] Growth finished & baked at step 474 (Click Start to continue or Clear to reset)
+[20:41:32.900] [MEM:VRAM] Used: 2212 MB / 12288 MB (18.0%) | Free: 10076 MB [Batch Growth Baked]
+[20:41:32.900] [MEM:BUFFER] Root Sections: 483216 items (14.75 MB)
+[20:41:32.988] [PERF] raymarch: cuda 79.3 ms | tex 8.3 ms | 1238x927 px | src=baked-grid | sections=483216 nodes=0 | live=0
+[20:41:38.649] [PERF] raymarch: cuda 68.8 ms | tex 0.8 ms | 1238x927 px | src=baked-grid | sections=483216 nodes=0 | live=0
+[20:41:44.321] [PERF] raymarch: cuda 124.0 ms | tex 0.8 ms | 1238x927 px | src=baked-grid | sections=483216 nodes=0 | live=0
+[20:41:47.959] [ACTION] Button: Clear
+[20:41:47.959] [ACTION] Clear Scene button clicked
+[20:41:48.028] [PERF] raymarch: cuda 51.7 ms | tex 1.6 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:42:01.829] [CUDA] Fast SDF path OK: 2231 ms total (splat+parity 328 ms | eikonal 8 rounds 1846 ms | verify+sign+copy 56 ms) | 500x374x610 voxels, 12496 tris, band 8 vox, fixup 0 | verify 1 probes, 0 sites, 0 voxels patched in 0 rounds, residual 0 (tolerance 16) | far residual 0, extra rounds 0, safe-clamped 0
+[20:42:01.962] [REACTION] Loaded mug.STL (Direct GPU SDF Volume in 2230 ms)
+[20:42:01.962] [MEM:VRAM] Used: 2294 MB / 12288 MB (18.7%) | Free: 9993 MB [Model Loaded & SDF Rasterized]
+[20:42:02.036] [PERF] raymarch: cuda 70.6 ms | tex 2.7 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:42:08.191] [ACTION] Button: Start
+[20:42:08.191] [ACTION] Start Growth button clicked
+[20:42:08.585] [REACTION] Roots visualization automatically enabled for growth session
+[20:42:08.585] [REACTION] Growing roots...
+[20:53:59.695] [PERF] live steps: 453 committed, batch 711109.2 ms (step calls 710980.1 ms) | last step phases: up 1.6 / prep 38.0 / adv 70.5 / cmt 0.1 / dwn 1.9 (sum 112.2) | sections=480881 tips=14921 spores=1947
+[20:53:59.695] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=480881
+[20:53:59.700] [PRINT] [Print Audit] sections=480881 (order 0/1/2/3: 986/13812/94830/371253) | islands=1 seed base(s) connected | min radius=0.220 mm (floor 0.220) OK | est. resin volume=49.78 cm^3
+[20:53:59.700] [PRINT] [Print Audit] slenderness: worst root #5 L/r=1294 | roots with L/r > 60: 7079 (long thin spans - consider supports or a higher Min Print Radius)
+[20:53:59.700] [PRINT] [Caliber Audit] shape=Natural+Clearance | r min/mean by order 0/1/2/3: 0.22/0.75 0.22/0.31 0.22/0.24 0.22/0.23 mm | clearance tips: 14/247/2567/11751 strands, mean tip r 0.65/0.25/0.22/0.22 mm (space-driven taper: anchors locked, floor 0.22)
+[20:56:18.658] [EYE] [Structure Dump] wrote 480881 sections (mode 6, iter 453) -> logs/structure_dump_mode6_20261120_205618.txt — send this file back (or bundle.zip) for shape analysis
+[20:56:18.658] [REACTION] Growth finished & baked at step 453 (Click Start to continue or Clear to reset)
+[20:56:18.658] [MEM:VRAM] Used: 2089 MB / 12288 MB (17.0%) | Free: 10199 MB [Batch Growth Baked]
+[20:56:18.658] [MEM:BUFFER] Root Sections: 480881 items (14.68 MB)
+[20:56:18.734] [PERF] raymarch: cuda 67.1 ms | tex 8.8 ms | 1238x927 px | src=baked-grid | sections=480881 nodes=0 | live=0
+[20:56:23.372] [PERF] raymarch: cuda 21.7 ms | tex 0.8 ms | 1238x927 px | src=baked-grid | sections=480881 nodes=0 | live=0
