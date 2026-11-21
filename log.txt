@@ -1,0 +1,148 @@
+[20:51:21.303] [REACTION] Loaded Generated Sphere (Direct GPU SDF Volume in 2537 ms)
+[20:51:21.303] [MEM:VRAM] Used: 1094 MB / 12288 MB (8.9%) | Free: 11193 MB [Model Loaded & SDF Rasterized]
+[20:51:21.322] [PERF] raymarch: cuda 10.0 ms | tex 2.7 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:51:24.987] [PERF] raymarch: cuda 2.1 ms | tex 4.4 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:51:30.759] [PERF] raymarch: cuda 10.5 ms | tex 4.3 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:51:31.560] [ACTION] Button: Import
+[20:51:31.560] [ACTION] Import 3D Model button clicked
+[20:51:34.605] [CUDA] Fast SDF verify: 2/4096 sign mismatches (probe gen 0) - patching exact winding boxes (r=24)
+[20:51:34.746] [CUDA] Fast SDF verify: 4/4096 sign mismatches (probe gen 1) - patching exact winding boxes (r=24)
+[20:51:35.032] [CUDA] Fast SDF verify: 3/4096 sign mismatches (probe gen 2) - patching exact winding boxes (r=24)
+[20:51:35.256] [CUDA] Fast SDF verify: 3/4096 residual mismatches within tolerance 16 (probe gen 2) - accepting fast path, 9 sites patched exact
+[20:51:35.294] [CUDA] Fast SDF path OK: 2026 ms total (splat+parity 251 ms | eikonal 8 rounds 1079 ms | verify+sign+copy 696 ms) | 428x321x521 voxels, 12496 tris, band 8 vox, fixup 0 | verify 3 probes, 9 sites, 1042034 voxels patched in 3 rounds, residual 3 (tolerance 16) | far residual 0, extra rounds 0, safe-clamped 0
+[20:51:35.377] [REACTION] Loaded mug.STL (Direct GPU SDF Volume in 2025 ms)
+[20:51:35.377] [MEM:VRAM] Used: 1190 MB / 12288 MB (9.7%) | Free: 11097 MB [Model Loaded & SDF Rasterized]
+[20:51:35.419] [PERF] raymarch: cuda 39.8 ms | tex 1.1 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0
+[20:51:41.542] [ACTION] Button: Start
+[20:51:41.542] [ACTION] Start Growth button clicked
+[20:51:41.810] [GROWTH] [Living Voxel] session start: 6671 attractors (volume 79 + wall band 6592 + halo 0) [volume 5 mm + band 2 mm], 2 primary roots, adult reference flux 21347 nodes | collar: 122 within 11 mm, nearest 1.3 mm
+[20:51:41.810] [REACTION] Roots visualization automatically enabled for growth session
+[20:51:41.810] [REACTION] 3D volumetric capsules enabled for live animated growth
+[20:51:41.810] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1
+[20:51:41.811] [REACTION] Growing roots live (Direct GPU Raymarching)... Adjust sliders or click Stop anytime.
+[20:51:41.811] [MEM:VRAM] Used: 1422 MB / 12288 MB (11.6%) | Free: 10865 MB [Growth Started]
+[20:51:41.825] [PERF] raymarch: cuda 11.1 ms | tex 1.9 ms | 1238x927 px | src=live-capsules | sections=1 nodes=0 | live=1
+[20:51:41.880] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=11
+[20:51:41.881] [PERF] live frame: dt=0 ms | steps 55 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.1, full=0) | N=11 tips=4 spores=6656
+[20:51:41.890] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=23
+[20:51:41.924] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=35
+[20:51:41.972] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=47
+[20:51:42.019] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=59
+[20:51:42.068] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=71
+[20:51:42.115] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=83
+[20:51:42.165] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=95
+[20:51:42.211] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=107
+[20:51:42.260] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=119
+[20:51:42.309] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=131
+[20:51:42.356] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=143
+[20:51:42.404] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=158
+[20:51:42.451] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=176
+[20:51:42.499] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=194
+[20:51:42.548] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=212
+[20:51:42.595] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=230
+[20:51:42.644] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=251
+[20:51:42.691] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=275
+[20:51:42.739] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=299
+[20:51:42.787] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=323
+[20:51:42.833] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=347
+[20:51:42.833] [PERF] live frame: dt=47 ms | steps 3 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.0, full=0) | N=347 tips=8 spores=6090
+[20:51:42.839] [PERF] raymarch: cuda 4.5 ms | tex 1.1 ms | 1238x927 px | src=live-capsules | sections=347 nodes=0 | live=1
+[20:51:42.880] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=374
+[20:51:42.928] [PERF] live steps: 3 committed, batch 2.9 ms (step calls 2.5 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=404 tips=12 spores=6009
+[20:51:42.928] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=404
+[20:51:42.975] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=444
+[20:51:43.022] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=486
+[20:51:43.069] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=528
+[20:51:43.118] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=573
+[20:51:43.166] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=621
+[20:51:43.214] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=673
+[20:51:43.262] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=727
+[20:51:43.311] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=781
+[20:51:43.358] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=837
+[20:51:43.405] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=897
+[20:51:43.455] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=961
+[20:51:43.502] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1027
+[20:51:43.549] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1103
+[20:51:43.597] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1183
+[20:51:43.645] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1267
+[20:51:43.695] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1355
+[20:51:43.744] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1445
+[20:51:43.791] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1544
+[20:51:43.839] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1648
+[20:51:43.839] [PERF] live frame: dt=48 ms | steps 4 ms | sync 0.2 ms (caliber 0.0 skipped, convert 0.1, upload 0.1, full=0) | N=1648 tips=36 spores=4239
+[20:51:43.855] [PERF] raymarch: cuda 14.3 ms | tex 0.9 ms | 1238x927 px | src=live-capsules | sections=1648 nodes=0 | live=1
+[20:51:43.885] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1756
+[20:51:43.933] [PERF] live steps: 3 committed, batch 3.3 ms (step calls 2.8 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=1867 tips=38 spores=3955
+[20:51:43.933] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1867
+[20:51:43.980] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=1981
+[20:51:44.027] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2102
+[20:51:44.075] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2230
+[20:51:44.123] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2374
+[20:51:44.170] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2519
+[20:51:44.218] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2670
+[20:51:44.266] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2828
+[20:51:44.312] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=2992
+[20:51:44.361] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=3165
+[20:51:44.407] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=3347
+[20:51:44.455] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=3533
+[20:51:44.502] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=3723
+[20:51:44.549] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=3908
+[20:51:44.597] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=4099
+[20:51:44.645] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=4296
+[20:51:44.692] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=4507
+[20:51:44.739] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=4724
+[20:51:44.788] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=4944
+[20:51:44.821] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=5170
+[20:51:44.857] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=5395
+[20:51:44.857] [PERF] live frame: dt=34 ms | steps 3 ms | sync 0.2 ms (caliber 0.0 skipped, convert 0.1, upload 0.1, full=0) | N=5395 tips=78 spores=1235
+[20:51:44.889] [PERF] raymarch: cuda 30.5 ms | tex 1.0 ms | 1238x927 px | src=live-capsules | sections=5395 nodes=0 | live=1
+[20:51:44.893] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=5613
+[20:51:44.930] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=5811
+[20:51:44.967] [PERF] live steps: 3 committed, batch 1.8 ms (step calls 1.4 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=5999 tips=65 spores=888
+[20:51:44.967] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=5999
+[20:51:45.006] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=6189
+[20:51:45.045] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=6372
+[20:51:45.086] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=6555
+[20:51:45.127] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=6728
+[20:51:45.169] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=6900
+[20:51:45.211] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7070
+[20:51:45.254] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7231
+[20:51:45.298] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7389
+[20:51:45.343] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7521
+[20:51:45.389] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7625
+[20:51:45.438] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7706
+[20:51:45.487] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7772
+[20:51:45.537] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7815
+[20:51:45.587] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7846
+[20:51:45.638] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7861
+[20:51:45.687] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7870
+[20:51:45.737] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7879
+[20:51:45.788] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7888
+[20:51:45.839] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7897
+[20:51:45.889] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7906
+[20:51:45.889] [PERF] live frame: dt=50 ms | steps 1 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.1, full=0) | N=7906 tips=3 spores=38
+[20:51:45.936] [PERF] raymarch: cuda 45.8 ms | tex 0.8 ms | 1238x927 px | src=live-capsules | sections=7906 nodes=0 | live=1
+[20:51:45.938] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7915
+[20:51:45.990] [PERF] live steps: 3 committed, batch 1.5 ms (step calls 1.0 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=7924 tips=3 spores=36
+[20:51:45.990] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7924
+[20:51:46.042] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7927
+[20:51:46.093] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7930
+[20:51:46.142] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7933
+[20:51:46.193] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7936
+[20:51:46.244] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7939
+[20:51:46.294] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7942
+[20:51:46.347] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7945
+[20:51:46.397] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7948
+[20:51:46.446] [REACTION] [Living Voxel] all tips retired at step 296 - 32 attractors left. Growth ended naturally (food exhausted or parked at walls).
+[20:51:46.446] [DEBUG] update_implicit_session: Before sync, vol_sections_.size()=7949
+[20:51:46.446] [PRINT] [Print Audit] sections=7949 (order 0/1/2/3: 357/859/1536/5197) | islands=1 seed base(s) connected | min radius=0.350 mm (floor 0.350) OK | est. resin volume=8.73 cm^3
+[20:51:46.446] [PRINT] [Print Audit] slenderness: worst root #4 L/r=726 | roots with L/r > 60: 93 (long thin spans - consider supports or a higher Min Print Radius)
+[20:51:46.446] [PRINT] [Caliber Audit] shape=Natural | r min/mean by order 0/1/2/3: 0.35/0.89 0.35/0.79 0.35/0.59 0.35/0.38 mm | tip fidelity: 2/6/20/76 strands, worst |tip-end| 0.000/0.000/0.000/0.000 mm (order 0 must stay 0.000)
+[20:51:46.446] [PRINT] [Navigation Audit] engine=living-voxel | attractor chase: perception 11.0 mm, kill 2.4 mm | wind 0.45 (coherence 0.85, gust 0.15) | grav prior 0.30 | turn limit 40 deg
+[20:51:47.964] [EYE] [Structure Dump] wrote 7949 sections (mode 7, iter 296) -> logs/structure_dump_mode7_20261121_205147.txt — send this file back (or bundle.zip) for shape analysis
+[20:51:47.964] [REACTION] Growth finished & baked at step 296 (Direct GPU Volume)
+[20:51:47.964] [MEM:VRAM] Used: 1700 MB / 12288 MB (13.8%) | Free: 10587 MB [Live Growth Baked]
+[20:51:47.964] [MEM:BUFFER] Root Sections: 7949 items (248.4 KB)
+[20:51:48.009] [PERF] raymarch: cuda 42.5 ms | tex 1.3 ms | 1238x927 px | src=baked-grid | sections=7949 nodes=0 | live=0
+[20:51:52.104] [PERF] raymarch: cuda 93.4 ms | tex 0.9 ms | 1238x927 px | src=baked-grid | sections=7949 nodes=0 | live=0
+[20:51:55.056] [PERF] raymarch: cuda 3.0 ms | tex 0.0 ms | 64x64 px | src=baked-grid | sections=7949 nodes=0 | live=0

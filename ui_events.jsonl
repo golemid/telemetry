@@ -1,0 +1,150 @@
+{"timestamp_ns":1795287078741572200,"iso_time":"2026-11-21T18:51:18.741Z","event_type":"SESSION_START","registered_controls":138,"message":"Rhizome Unified UI Interaction Monitor started"}
+{"timestamp_ns":1795287081303857500,"iso_time":"2026-11-21T18:51:21.303Z","event_type":"REACTION","message":"Loaded Generated Sphere (Direct GPU SDF Volume in 2537 ms)"}
+{"timestamp_ns":1795287081303888300,"iso_time":"2026-11-21T18:51:21.303Z","event_type":"MEM:VRAM","message":"Used: 1094 MB / 12288 MB (8.9%) | Free: 11193 MB [Model Loaded & SDF Rasterized]"}
+{"timestamp_ns":1795287081322546100,"iso_time":"2026-11-21T18:51:21.322Z","event_type":"PERF","message":"raymarch: cuda 10.0 ms | tex 2.7 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0"}
+{"timestamp_ns":1795287084987361100,"iso_time":"2026-11-21T18:51:24.987Z","event_type":"PERF","message":"raymarch: cuda 2.1 ms | tex 4.4 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0"}
+{"timestamp_ns":1795287090759850800,"iso_time":"2026-11-21T18:51:30.759Z","event_type":"PERF","message":"raymarch: cuda 10.5 ms | tex 4.3 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0"}
+{"timestamp_ns":1795287091560084800,"iso_time":"2026-11-21T18:51:31.560Z","event_type":"ACTION","control_id":"CTRL001","label":"Import","section":"Growth Command Bar","category":"COMMAND_01","message":"Button: Import"}
+{"timestamp_ns":1795287091560106500,"iso_time":"2026-11-21T18:51:31.560Z","event_type":"ACTION","control_id":"CTRL001","label":"Import","section":"Growth Command Bar","category":"COMMAND_01","message":"Import 3D Model button clicked"}
+{"timestamp_ns":1795287094605347100,"iso_time":"2026-11-21T18:51:34.605Z","event_type":"CUDA","message":"Fast SDF verify: 2/4096 sign mismatches (probe gen 0) - patching exact winding boxes (r=24)"}
+{"timestamp_ns":1795287094746208800,"iso_time":"2026-11-21T18:51:34.746Z","event_type":"CUDA","message":"Fast SDF verify: 4/4096 sign mismatches (probe gen 1) - patching exact winding boxes (r=24)"}
+{"timestamp_ns":1795287095032438800,"iso_time":"2026-11-21T18:51:35.032Z","event_type":"CUDA","message":"Fast SDF verify: 3/4096 sign mismatches (probe gen 2) - patching exact winding boxes (r=24)"}
+{"timestamp_ns":1795287095256059100,"iso_time":"2026-11-21T18:51:35.256Z","event_type":"CUDA","message":"Fast SDF verify: 3/4096 residual mismatches within tolerance 16 (probe gen 2) - accepting fast path, 9 sites patched exact"}
+{"timestamp_ns":1795287095294024400,"iso_time":"2026-11-21T18:51:35.294Z","event_type":"CUDA","message":"Fast SDF path OK: 2026 ms total (splat+parity 251 ms | eikonal 8 rounds 1079 ms | verify+sign+copy 696 ms) | 428x321x521 voxels, 12496 tris, band 8 vox, fixup 0 | verify 3 probes, 9 sites, 1042034 voxels patched in 3 rounds, residual 3 (tolerance 16) | far residual 0, extra rounds 0, safe-clamped 0"}
+{"timestamp_ns":1795287095377939100,"iso_time":"2026-11-21T18:51:35.377Z","event_type":"REACTION","message":"Loaded mug.STL (Direct GPU SDF Volume in 2025 ms)"}
+{"timestamp_ns":1795287095377965300,"iso_time":"2026-11-21T18:51:35.377Z","event_type":"MEM:VRAM","message":"Used: 1190 MB / 12288 MB (9.7%) | Free: 11097 MB [Model Loaded & SDF Rasterized]"}
+{"timestamp_ns":1795287095419277400,"iso_time":"2026-11-21T18:51:35.419Z","event_type":"PERF","message":"raymarch: cuda 39.8 ms | tex 1.1 ms | 1238x927 px | src=spec-only | sections=0 nodes=0 | live=0"}
+{"timestamp_ns":1795287101542592200,"iso_time":"2026-11-21T18:51:41.542Z","event_type":"ACTION","control_id":"CTRL002","label":"Start","section":"Growth Command Bar","category":"COMMAND_01","message":"Button: Start"}
+{"timestamp_ns":1795287101542606800,"iso_time":"2026-11-21T18:51:41.542Z","event_type":"ACTION","control_id":"CTRL002","label":"Start","section":"Growth Command Bar","category":"COMMAND_01","message":"Start Growth button clicked"}
+{"timestamp_ns":1795287101810561900,"iso_time":"2026-11-21T18:51:41.810Z","event_type":"GROWTH","message":"[Living Voxel] session start: 6671 attractors (volume 79 + wall band 6592 + halo 0) [volume 5 mm + band 2 mm], 2 primary roots, adult reference flux 21347 nodes | collar: 122 within 11 mm, nearest 1.3 mm"}
+{"timestamp_ns":1795287101810570400,"iso_time":"2026-11-21T18:51:41.810Z","event_type":"REACTION","message":"Roots visualization automatically enabled for growth session"}
+{"timestamp_ns":1795287101810573200,"iso_time":"2026-11-21T18:51:41.810Z","event_type":"REACTION","message":"3D volumetric capsules enabled for live animated growth"}
+{"timestamp_ns":1795287101810578600,"iso_time":"2026-11-21T18:51:41.810Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1"}
+{"timestamp_ns":1795287101811933100,"iso_time":"2026-11-21T18:51:41.811Z","event_type":"REACTION","message":"Growing roots live (Direct GPU Raymarching)... Adjust sliders or click Stop anytime."}
+{"timestamp_ns":1795287101811952800,"iso_time":"2026-11-21T18:51:41.811Z","event_type":"MEM:VRAM","message":"Used: 1422 MB / 12288 MB (11.6%) | Free: 10865 MB [Growth Started]"}
+{"timestamp_ns":1795287101825133000,"iso_time":"2026-11-21T18:51:41.825Z","event_type":"PERF","message":"raymarch: cuda 11.1 ms | tex 1.9 ms | 1238x927 px | src=live-capsules | sections=1 nodes=0 | live=1"}
+{"timestamp_ns":1795287101880882100,"iso_time":"2026-11-21T18:51:41.880Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=11"}
+{"timestamp_ns":1795287101881026300,"iso_time":"2026-11-21T18:51:41.881Z","event_type":"PERF","message":"live frame: dt=0 ms | steps 55 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.1, full=0) | N=11 tips=4 spores=6656"}
+{"timestamp_ns":1795287101890778800,"iso_time":"2026-11-21T18:51:41.890Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=23"}
+{"timestamp_ns":1795287101924698800,"iso_time":"2026-11-21T18:51:41.924Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=35"}
+{"timestamp_ns":1795287101972212600,"iso_time":"2026-11-21T18:51:41.972Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=47"}
+{"timestamp_ns":1795287102019914200,"iso_time":"2026-11-21T18:51:42.019Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=59"}
+{"timestamp_ns":1795287102068090500,"iso_time":"2026-11-21T18:51:42.068Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=71"}
+{"timestamp_ns":1795287102115982300,"iso_time":"2026-11-21T18:51:42.115Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=83"}
+{"timestamp_ns":1795287102165193100,"iso_time":"2026-11-21T18:51:42.165Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=95"}
+{"timestamp_ns":1795287102211905400,"iso_time":"2026-11-21T18:51:42.211Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=107"}
+{"timestamp_ns":1795287102260599600,"iso_time":"2026-11-21T18:51:42.260Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=119"}
+{"timestamp_ns":1795287102309091500,"iso_time":"2026-11-21T18:51:42.309Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=131"}
+{"timestamp_ns":1795287102356667700,"iso_time":"2026-11-21T18:51:42.356Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=143"}
+{"timestamp_ns":1795287102404409400,"iso_time":"2026-11-21T18:51:42.404Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=158"}
+{"timestamp_ns":1795287102451380200,"iso_time":"2026-11-21T18:51:42.451Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=176"}
+{"timestamp_ns":1795287102499472700,"iso_time":"2026-11-21T18:51:42.499Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=194"}
+{"timestamp_ns":1795287102548260900,"iso_time":"2026-11-21T18:51:42.548Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=212"}
+{"timestamp_ns":1795287102595457000,"iso_time":"2026-11-21T18:51:42.595Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=230"}
+{"timestamp_ns":1795287102644634100,"iso_time":"2026-11-21T18:51:42.644Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=251"}
+{"timestamp_ns":1795287102691366300,"iso_time":"2026-11-21T18:51:42.691Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=275"}
+{"timestamp_ns":1795287102739366000,"iso_time":"2026-11-21T18:51:42.739Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=299"}
+{"timestamp_ns":1795287102787408300,"iso_time":"2026-11-21T18:51:42.787Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=323"}
+{"timestamp_ns":1795287102833559200,"iso_time":"2026-11-21T18:51:42.833Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=347"}
+{"timestamp_ns":1795287102833660400,"iso_time":"2026-11-21T18:51:42.833Z","event_type":"PERF","message":"live frame: dt=47 ms | steps 3 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.0, full=0) | N=347 tips=8 spores=6090"}
+{"timestamp_ns":1795287102839672800,"iso_time":"2026-11-21T18:51:42.839Z","event_type":"PERF","message":"raymarch: cuda 4.5 ms | tex 1.1 ms | 1238x927 px | src=live-capsules | sections=347 nodes=0 | live=1"}
+{"timestamp_ns":1795287102880257600,"iso_time":"2026-11-21T18:51:42.880Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=374"}
+{"timestamp_ns":1795287102928095000,"iso_time":"2026-11-21T18:51:42.928Z","event_type":"PERF","message":"live steps: 3 committed, batch 2.9 ms (step calls 2.5 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=404 tips=12 spores=6009"}
+{"timestamp_ns":1795287102928106900,"iso_time":"2026-11-21T18:51:42.928Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=404"}
+{"timestamp_ns":1795287102975195400,"iso_time":"2026-11-21T18:51:42.975Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=444"}
+{"timestamp_ns":1795287103022222300,"iso_time":"2026-11-21T18:51:43.022Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=486"}
+{"timestamp_ns":1795287103069950900,"iso_time":"2026-11-21T18:51:43.069Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=528"}
+{"timestamp_ns":1795287103118257600,"iso_time":"2026-11-21T18:51:43.118Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=573"}
+{"timestamp_ns":1795287103166128900,"iso_time":"2026-11-21T18:51:43.166Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=621"}
+{"timestamp_ns":1795287103214361800,"iso_time":"2026-11-21T18:51:43.214Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=673"}
+{"timestamp_ns":1795287103262246400,"iso_time":"2026-11-21T18:51:43.262Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=727"}
+{"timestamp_ns":1795287103311036000,"iso_time":"2026-11-21T18:51:43.311Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=781"}
+{"timestamp_ns":1795287103358303800,"iso_time":"2026-11-21T18:51:43.358Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=837"}
+{"timestamp_ns":1795287103405961100,"iso_time":"2026-11-21T18:51:43.405Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=897"}
+{"timestamp_ns":1795287103455326600,"iso_time":"2026-11-21T18:51:43.455Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=961"}
+{"timestamp_ns":1795287103502255200,"iso_time":"2026-11-21T18:51:43.502Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1027"}
+{"timestamp_ns":1795287103549711600,"iso_time":"2026-11-21T18:51:43.549Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1103"}
+{"timestamp_ns":1795287103597888200,"iso_time":"2026-11-21T18:51:43.597Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1183"}
+{"timestamp_ns":1795287103645611400,"iso_time":"2026-11-21T18:51:43.645Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1267"}
+{"timestamp_ns":1795287103695124400,"iso_time":"2026-11-21T18:51:43.695Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1355"}
+{"timestamp_ns":1795287103744129600,"iso_time":"2026-11-21T18:51:43.744Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1445"}
+{"timestamp_ns":1795287103791015700,"iso_time":"2026-11-21T18:51:43.791Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1544"}
+{"timestamp_ns":1795287103839379300,"iso_time":"2026-11-21T18:51:43.839Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1648"}
+{"timestamp_ns":1795287103839558200,"iso_time":"2026-11-21T18:51:43.839Z","event_type":"PERF","message":"live frame: dt=48 ms | steps 4 ms | sync 0.2 ms (caliber 0.0 skipped, convert 0.1, upload 0.1, full=0) | N=1648 tips=36 spores=4239"}
+{"timestamp_ns":1795287103855251700,"iso_time":"2026-11-21T18:51:43.855Z","event_type":"PERF","message":"raymarch: cuda 14.3 ms | tex 0.9 ms | 1238x927 px | src=live-capsules | sections=1648 nodes=0 | live=1"}
+{"timestamp_ns":1795287103885988000,"iso_time":"2026-11-21T18:51:43.885Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1756"}
+{"timestamp_ns":1795287103933149400,"iso_time":"2026-11-21T18:51:43.933Z","event_type":"PERF","message":"live steps: 3 committed, batch 3.3 ms (step calls 2.8 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=1867 tips=38 spores=3955"}
+{"timestamp_ns":1795287103933162000,"iso_time":"2026-11-21T18:51:43.933Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1867"}
+{"timestamp_ns":1795287103980928700,"iso_time":"2026-11-21T18:51:43.980Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=1981"}
+{"timestamp_ns":1795287104027558600,"iso_time":"2026-11-21T18:51:44.027Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2102"}
+{"timestamp_ns":1795287104075298100,"iso_time":"2026-11-21T18:51:44.075Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2230"}
+{"timestamp_ns":1795287104123290000,"iso_time":"2026-11-21T18:51:44.123Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2374"}
+{"timestamp_ns":1795287104170869700,"iso_time":"2026-11-21T18:51:44.170Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2519"}
+{"timestamp_ns":1795287104218659100,"iso_time":"2026-11-21T18:51:44.218Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2670"}
+{"timestamp_ns":1795287104266209200,"iso_time":"2026-11-21T18:51:44.266Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2828"}
+{"timestamp_ns":1795287104312881400,"iso_time":"2026-11-21T18:51:44.312Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=2992"}
+{"timestamp_ns":1795287104361258900,"iso_time":"2026-11-21T18:51:44.361Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=3165"}
+{"timestamp_ns":1795287104407791700,"iso_time":"2026-11-21T18:51:44.407Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=3347"}
+{"timestamp_ns":1795287104455573300,"iso_time":"2026-11-21T18:51:44.455Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=3533"}
+{"timestamp_ns":1795287104502032500,"iso_time":"2026-11-21T18:51:44.502Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=3723"}
+{"timestamp_ns":1795287104549365900,"iso_time":"2026-11-21T18:51:44.549Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=3908"}
+{"timestamp_ns":1795287104597154900,"iso_time":"2026-11-21T18:51:44.597Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=4099"}
+{"timestamp_ns":1795287104645588100,"iso_time":"2026-11-21T18:51:44.645Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=4296"}
+{"timestamp_ns":1795287104692665200,"iso_time":"2026-11-21T18:51:44.692Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=4507"}
+{"timestamp_ns":1795287104739933100,"iso_time":"2026-11-21T18:51:44.739Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=4724"}
+{"timestamp_ns":1795287104788857400,"iso_time":"2026-11-21T18:51:44.788Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=4944"}
+{"timestamp_ns":1795287104821939300,"iso_time":"2026-11-21T18:51:44.821Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=5170"}
+{"timestamp_ns":1795287104857435800,"iso_time":"2026-11-21T18:51:44.857Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=5395"}
+{"timestamp_ns":1795287104857670700,"iso_time":"2026-11-21T18:51:44.857Z","event_type":"PERF","message":"live frame: dt=34 ms | steps 3 ms | sync 0.2 ms (caliber 0.0 skipped, convert 0.1, upload 0.1, full=0) | N=5395 tips=78 spores=1235"}
+{"timestamp_ns":1795287104889771400,"iso_time":"2026-11-21T18:51:44.889Z","event_type":"PERF","message":"raymarch: cuda 30.5 ms | tex 1.0 ms | 1238x927 px | src=live-capsules | sections=5395 nodes=0 | live=1"}
+{"timestamp_ns":1795287104893882300,"iso_time":"2026-11-21T18:51:44.893Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=5613"}
+{"timestamp_ns":1795287104930134100,"iso_time":"2026-11-21T18:51:44.930Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=5811"}
+{"timestamp_ns":1795287104967276900,"iso_time":"2026-11-21T18:51:44.967Z","event_type":"PERF","message":"live steps: 3 committed, batch 1.8 ms (step calls 1.4 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=5999 tips=65 spores=888"}
+{"timestamp_ns":1795287104967288500,"iso_time":"2026-11-21T18:51:44.967Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=5999"}
+{"timestamp_ns":1795287105006572000,"iso_time":"2026-11-21T18:51:45.006Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=6189"}
+{"timestamp_ns":1795287105045944600,"iso_time":"2026-11-21T18:51:45.045Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=6372"}
+{"timestamp_ns":1795287105086393200,"iso_time":"2026-11-21T18:51:45.086Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=6555"}
+{"timestamp_ns":1795287105127351900,"iso_time":"2026-11-21T18:51:45.127Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=6728"}
+{"timestamp_ns":1795287105169260200,"iso_time":"2026-11-21T18:51:45.169Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=6900"}
+{"timestamp_ns":1795287105211921700,"iso_time":"2026-11-21T18:51:45.211Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7070"}
+{"timestamp_ns":1795287105254737900,"iso_time":"2026-11-21T18:51:45.254Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7231"}
+{"timestamp_ns":1795287105298259700,"iso_time":"2026-11-21T18:51:45.298Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7389"}
+{"timestamp_ns":1795287105343261700,"iso_time":"2026-11-21T18:51:45.343Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7521"}
+{"timestamp_ns":1795287105389401500,"iso_time":"2026-11-21T18:51:45.389Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7625"}
+{"timestamp_ns":1795287105438696600,"iso_time":"2026-11-21T18:51:45.438Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7706"}
+{"timestamp_ns":1795287105487776500,"iso_time":"2026-11-21T18:51:45.487Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7772"}
+{"timestamp_ns":1795287105537037000,"iso_time":"2026-11-21T18:51:45.537Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7815"}
+{"timestamp_ns":1795287105587004100,"iso_time":"2026-11-21T18:51:45.587Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7846"}
+{"timestamp_ns":1795287105638164200,"iso_time":"2026-11-21T18:51:45.638Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7861"}
+{"timestamp_ns":1795287105687388700,"iso_time":"2026-11-21T18:51:45.687Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7870"}
+{"timestamp_ns":1795287105737275300,"iso_time":"2026-11-21T18:51:45.737Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7879"}
+{"timestamp_ns":1795287105788941300,"iso_time":"2026-11-21T18:51:45.788Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7888"}
+{"timestamp_ns":1795287105839418600,"iso_time":"2026-11-21T18:51:45.839Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7897"}
+{"timestamp_ns":1795287105889570700,"iso_time":"2026-11-21T18:51:45.889Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7906"}
+{"timestamp_ns":1795287105889711900,"iso_time":"2026-11-21T18:51:45.889Z","event_type":"PERF","message":"live frame: dt=50 ms | steps 1 ms | sync 0.1 ms (caliber 0.0 skipped, convert 0.0, upload 0.1, full=0) | N=7906 tips=3 spores=38"}
+{"timestamp_ns":1795287105936699900,"iso_time":"2026-11-21T18:51:45.936Z","event_type":"PERF","message":"raymarch: cuda 45.8 ms | tex 0.8 ms | 1238x927 px | src=live-capsules | sections=7906 nodes=0 | live=1"}
+{"timestamp_ns":1795287105938875700,"iso_time":"2026-11-21T18:51:45.938Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7915"}
+{"timestamp_ns":1795287105990885600,"iso_time":"2026-11-21T18:51:45.990Z","event_type":"PERF","message":"live steps: 3 committed, batch 1.5 ms (step calls 1.0 ms) | last step phases: up 0.0 / prep 0.0 / adv 0.0 / cmt 0.0 / dwn 0.0 (sum 0.0) (none) | spore scan: direct (0.0M items) | sections=7924 tips=3 spores=36"}
+{"timestamp_ns":1795287105990896200,"iso_time":"2026-11-21T18:51:45.990Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7924"}
+{"timestamp_ns":1795287106042755800,"iso_time":"2026-11-21T18:51:46.042Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7927"}
+{"timestamp_ns":1795287106093195700,"iso_time":"2026-11-21T18:51:46.093Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7930"}
+{"timestamp_ns":1795287106142870400,"iso_time":"2026-11-21T18:51:46.142Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7933"}
+{"timestamp_ns":1795287106193821600,"iso_time":"2026-11-21T18:51:46.193Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7936"}
+{"timestamp_ns":1795287106244951900,"iso_time":"2026-11-21T18:51:46.244Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7939"}
+{"timestamp_ns":1795287106294996000,"iso_time":"2026-11-21T18:51:46.294Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7942"}
+{"timestamp_ns":1795287106347687900,"iso_time":"2026-11-21T18:51:46.347Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7945"}
+{"timestamp_ns":1795287106397453100,"iso_time":"2026-11-21T18:51:46.397Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7948"}
+{"timestamp_ns":1795287106446511700,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"REACTION","message":"[Living Voxel] all tips retired at step 296 - 32 attractors left. Growth ended naturally (food exhausted or parked at walls)."}
+{"timestamp_ns":1795287106446630900,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"DEBUG","message":"update_implicit_session: Before sync, vol_sections_.size()=7949"}
+{"timestamp_ns":1795287106446703200,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"PRINT","message":"[Print Audit] sections=7949 (order 0/1/2/3: 357/859/1536/5197) | islands=1 seed base(s) connected | min radius=0.350 mm (floor 0.350) OK | est. resin volume=8.73 cm^3"}
+{"timestamp_ns":1795287106446708500,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"PRINT","message":"[Print Audit] slenderness: worst root #4 L/r=726 | roots with L/r > 60: 93 (long thin spans - consider supports or a higher Min Print Radius)"}
+{"timestamp_ns":1795287106446714500,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"PRINT","message":"[Caliber Audit] shape=Natural | r min/mean by order 0/1/2/3: 0.35/0.89 0.35/0.79 0.35/0.59 0.35/0.38 mm | tip fidelity: 2/6/20/76 strands, worst |tip-end| 0.000/0.000/0.000/0.000 mm (order 0 must stay 0.000)"}
+{"timestamp_ns":1795287106446721200,"iso_time":"2026-11-21T18:51:46.446Z","event_type":"PRINT","message":"[Navigation Audit] engine=living-voxel | attractor chase: perception 11.0 mm, kill 2.4 mm | wind 0.45 (coherence 0.85, gust 0.15) | grav prior 0.30 | turn limit 40 deg"}
+{"timestamp_ns":1795287107964392300,"iso_time":"2026-11-21T18:51:47.964Z","event_type":"EYE","message":"[Structure Dump] wrote 7949 sections (mode 7, iter 296) -> logs/structure_dump_mode7_20261121_205147.txt — send this file back (or bundle.zip) for shape analysis"}
+{"timestamp_ns":1795287107964403100,"iso_time":"2026-11-21T18:51:47.964Z","event_type":"REACTION","message":"Growth finished & baked at step 296 (Direct GPU Volume)"}
+{"timestamp_ns":1795287107964424300,"iso_time":"2026-11-21T18:51:47.964Z","event_type":"MEM:VRAM","message":"Used: 1700 MB / 12288 MB (13.8%) | Free: 10587 MB [Live Growth Baked]"}
+{"timestamp_ns":1795287107964772800,"iso_time":"2026-11-21T18:51:47.964Z","event_type":"MEM:BUFFER","message":"Root Sections: 7949 items (248.4 KB)"}
+{"timestamp_ns":1795287108009079600,"iso_time":"2026-11-21T18:51:48.009Z","event_type":"PERF","message":"raymarch: cuda 42.5 ms | tex 1.3 ms | 1238x927 px | src=baked-grid | sections=7949 nodes=0 | live=0"}
+{"timestamp_ns":1795287112009057200,"iso_time":"2026-11-21T18:51:52.009Z","event_type":"ACTION","control_id":"CTRL104","label":"Transparent specimen","section":"Specimen Appearance","category":"SHADING_02","old_value":0,"new_value":1}
+{"timestamp_ns":1795287112104902000,"iso_time":"2026-11-21T18:51:52.104Z","event_type":"PERF","message":"raymarch: cuda 93.4 ms | tex 0.9 ms | 1238x927 px | src=baked-grid | sections=7949 nodes=0 | live=0"}
+{"timestamp_ns":1795287115056020100,"iso_time":"2026-11-21T18:51:55.056Z","event_type":"PERF","message":"raymarch: cuda 3.0 ms | tex 0.0 ms | 64x64 px | src=baked-grid | sections=7949 nodes=0 | live=0"}
